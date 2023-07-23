@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.home{
+    background-image: url("images/mountain.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 13px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#navbar li{
+    list-style: none;
+    padding:0 40px;
+    position: relative;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    transition: 0.2sec ease;
+    color:#fff
+    
+}
+.mountain-place{
+    text-align: center;
+    padding-top: 110px;
+    font-size: 100px;
+}
+.main-name{
+    font-size: 100px;
+}
+span{
+    color: rgba(3, 29, 29, 0.8);
+}
+
+.first-data{
+    display: flex;
+    justify-content: space-between;
+}
+.first-data .nav-data ul{
+    display: flex;
+    padding: 10px;
+
+}
+.first-data .nav-data ul li{
+    padding: 20px;
+
+}
+.first-data .nav-data ul a li{
+    text-decoration: none;
+}
+.losangeles{
+    display: flex;
+}
+.data-angeles{
+    margin-left: 10px;
+    /* margin-top: 8px; */
+}
+.second-section{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    margin-top: 1opx;
+    margin-left: 80px;
+    justify-content: space-between;
+}
+.second-nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+
+
+}
+.navbar .second-nav ul a{
+    justify-content: space-between;
+}
+.nav-data{
+    margin-top: 18px;
+    color: black;
+}
+.data-second-page{
+    margin-left: 80px;
+    padding-top: 30px;
+    display: flex;
+}
+
+.second-mountain{
+    background-image: url("images/mountain.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    /* height: 100vh; */
+    
+    
+
+}
+.second-data{
+    font-size: 150px;
+    color: rgb(112, 107, 107);
+}
+.point{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(112, 107, 107);
+}
+.second-data-room ul{
+    margin-top: 100px;
+    list-style: none;
+}
+.paragraph{
+    margin: 170px;
+    margin-top: 5px;
+}
+@media(max-width:767px){
+    .carousel{
+        padding: 5px;
+    }
+}
+.carousel{
+    background-color: transparent ;
+    margin-bottom: 10px;
+
+}
+#carouselExampleIndicators{
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+
+.carousel-item img{
+    max-width: 100%;
+    height: auto;
+    
+}
+.third-item{
+    display: flex;
+}
+.final-data{
+    display: flex;
+    flex-wrap: wrap;
+}
+.climb-data{
+    font-size: 150px;
+    color:  rgb(112, 107, 107);
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 80px;
+}
+.second-point{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(112, 107, 107);
+}
+.final-list,.final-para{
+    list-style: none;
+    margin-top: 110px;
+}
+.final-para{
+    margin-left: 40px;
+}
+.mountain-nav{
+    border: 1px solid black;
+    background-color: rgb(163, 159, 189);
+}
+.mountain-items ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 80px;
+    
+}
+.mountain-items ul li{
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.mountain-items ul li:hover{
+    color: black;
+    background-color: white;
+}
+.image-container{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+.image-container img{
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+.table-overlay{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-40%,-30%);
+    z-index: 1;
+    
+}
+.table-overlay table{
+    padding: 10px;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.table-overlay .table-size{
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.48);
+    border-radius: 10px;
+}
+.table-overlay table td{
+    padding: 8px;
+    /* border: 1px solid #ccc; */
+}
+footer{
+    background-color: dimgrey;
+}
+@media(max-width:767px){
+    .final-section{
+        padding: 0px;
+    }
+}
+@media(max-width:767px){
+    .first-section{
+        padding: 0px;
+    }
+}
+
