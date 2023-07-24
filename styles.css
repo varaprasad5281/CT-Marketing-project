@@ -149,7 +149,9 @@ span{
     }
 }
 .carousel{
-    background-color: transparent ;
+    background-color: rgba(149,201,143,0.4) ;
+    padding:0px 10px;
+    
     margin-bottom: 10px;
 
 }
